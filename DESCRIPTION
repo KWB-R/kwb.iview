@@ -1,0 +1,9 @@
+Package: kwb.iview
+Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
+Imports: kwb.utils
+Author: Hauke Sonnenberg
+Version: 0.0.99
+License: GPL
+Title: Interface to IrfanView
+Description: Wrapper functions to IrfanView functionality.
+RoxygenNote: 6.0.1
