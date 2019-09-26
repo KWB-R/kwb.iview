@@ -1,9 +1,19 @@
 Package: kwb.iview
-Maintainer: Hauke Sonnenberg <hauke.sonnenberg@kompetenz-wasser.de>
-Imports: kwb.utils
-Author: Hauke Sonnenberg
-Version: 0.0.99
-License: GPL
 Title: Interface to IrfanView
+Version: 0.0.99
+Authors@R: 
+    c(person(given = "Hauke",
+             family = "Sonnenberg",
+             role = c("aut", "cre"),
+             email = "hauke.sonnenberg@kompetenz-wasser.de",
+             comment = c(ORCID = "0000-0001-9134-2871")),
+      person(given = "Kompetenzzentrum Wasser Berlin gGmbH",
+             role = "cph"))
 Description: Wrapper functions to IrfanView functionality.
-RoxygenNote: 6.0.1
+License: GPL
+Imports: 
+    kwb.utils
+Remotes: 
+    github::kwb-r/kwb.utils
+RoxygenNote: 6.1.1
+Encoding: UTF-8
