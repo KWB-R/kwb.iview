@@ -15,7 +15,7 @@ Authors@R:
       person(given = "Kompetenzzentrum Wasser Berlin gGmbH",
              role = "cph"))
 Description: Wrapper functions to IrfanView functionality.
-License: GPL
+License: MIT + file LICENSE
 Imports: 
     kwb.utils
 Remotes: 
