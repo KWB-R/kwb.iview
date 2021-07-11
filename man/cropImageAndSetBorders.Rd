@@ -4,11 +4,17 @@
 \alias{cropImageAndSetBorders}
 \title{Use IrfanView to Crop the Image and Set Borders}
 \usage{
-cropImageAndSetBorders(inputdir, outputdir,
-  irfanViewExe = defaultIrfanViewExe(), crop = c(left = 0, top = 0,
-  width = -1, height = -1), border = c(left = 0, right = 0, top = 0,
-  bottom = 0), canvasColor = 255, useIni = TRUE, wait = FALSE,
-  inputPattern = "*.gif")
+cropImageAndSetBorders(
+  inputdir,
+  outputdir,
+  irfanViewExe = defaultIrfanViewExe(),
+  crop = c(left = 0, top = 0, width = -1, height = -1),
+  border = c(left = 0, right = 0, top = 0, bottom = 0),
+  canvasColor = 255,
+  useIni = TRUE,
+  wait = FALSE,
+  inputPattern = "*.gif"
+)
 }
 \arguments{
 \item{inputdir}{full input path including file name or pattern, e.g. "*.png",

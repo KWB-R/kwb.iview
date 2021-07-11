@@ -4,8 +4,13 @@
 \alias{appendImages}
 \title{Append Images Horizontally or Vertically}
 \usage{
-appendImages(files, direction, file, run = TRUE,
-  irfanViewExe = defaultIrfanViewExe())
+appendImages(
+  files,
+  direction,
+  file,
+  run = TRUE,
+  irfanViewExe = defaultIrfanViewExe()
+)
 }
 \arguments{
 \item{files}{paths to image files to be appended}

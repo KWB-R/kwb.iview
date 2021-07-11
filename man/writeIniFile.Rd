@@ -4,8 +4,7 @@
 \alias{writeIniFile}
 \title{Write INI File and Return Option String}
 \usage{
-writeIniFile(outputdir, crop, border, canvasColor,
-  filename = "i_view32.ini")
+writeIniFile(outputdir, crop, border, canvasColor, filename = "i_view32.ini")
 }
 \arguments{
 \item{outputdir}{output directory}

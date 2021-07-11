@@ -4,9 +4,11 @@
 \alias{iniContentCrop}
 \title{Content for INI File Specifying Crop Action}
 \usage{
-iniContentCrop(crop = c(left = 0, top = 0, width = -1, height = -1),
+iniContentCrop(
+  crop = c(left = 0, top = 0, width = -1, height = -1),
   border = c(left = 0, right = 0, top = 0, bottom = 0),
-  canvasColor = 255)
+  canvasColor = 255
+)
 }
 \arguments{
 \item{crop}{integer vector with elements named \code{left}, \code{top},

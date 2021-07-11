@@ -4,8 +4,13 @@
 \alias{convertToFormat}
 \title{Convert Image to Format}
 \usage{
-convertToFormat(imagepath, format, outputdir = dirname(imagepath),
-  wait = TRUE, irfanViewExe = defaultIrfanViewExe())
+convertToFormat(
+  imagepath,
+  format,
+  outputdir = dirname(imagepath),
+  wait = TRUE,
+  irfanViewExe = defaultIrfanViewExe()
+)
 }
 \arguments{
 \item{imagepath}{full path to image file to be converted}
